@@ -1,8 +1,21 @@
-# Data Science Project: Revenue-Forecasting
+# Revenue-Forecasting
 This is the monthly revenue forecasting using CNN (Convolutional Neural Network) as the base model. Around 9 and a half years of transaction data (aggregated per month) is used to generate next monthly revenue and transaction predictions. The aim is to predict whether the transaction and revenue is going to be on track (in target) or not.
 
 # Technologies used
 Python (Pandas, Numpy, Keras, Matplotlib, Sklearn, Plotly)
+
+## Table of Content:
+### Data Collection:
+  - Sources: confidential 
+  - Almost a decade worth of transaction data
+  - Contains transaction date, transaction id, and transaction value
+### Data Cleaning:
+  - Grouping per month
+  - Flagging christmas, new year, and ramadan holiday
+### Data Modelling:
+  - Building lag dataframe
+  - Deep learning model fitted: MLP, CNN, LSTM, CNN/LSTM 
+  - The best models will be tuned with the estimator hyperparameters
 
 # Ilustration:
 ![alt text](https://github.com/cindysuyitno/Revenue-Forecasting/blob/main/newplot.png)
